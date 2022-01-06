@@ -1,0 +1,84 @@
+body
+{
+    margin: 0%;
+     text-align: justify;
+}
+.flax
+{
+    display: flex;
+}
+.half-width
+{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.half-width img
+{
+    margin-top: -20%;
+    height: 400px;
+    width: 70%;
+}
+#border
+{
+    height: 20%;
+    border-left: 2px solid;
+    border-color: rgba(231, 17, 17, 0.733);
+}
+#border h1
+{
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 20px;
+}
+.orange
+{
+    color: orange;
+}
+.button{
+  background-color: rgba(231, 17, 17, 0.733);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.mission-2020
+{
+    width: 30%;
+    
+}
+.mission-2020 img
+{
+    height: 30%;
+    width: 50%;
+}
+.item
+{
+    margin-bottom: 5%;
+    padding: 2%;
+    height: 100%;
+      margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 10px;
+}
+.dev-logo
+{
+    background-image: url(.images\shapes\shape-2.png);
+}
+.half-width1 img
+{
+    margin-left: 20%;
+    height: 65%;
+    width:60%;
+}
+.develop
+{
+    margin-right: 10%;
+    margin-top: 2%;
+}
+.background
+{
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+}
