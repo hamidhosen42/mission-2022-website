@@ -1,41 +1,34 @@
-body
-{
-    margin: 0%;
-     text-align: justify;
+body {
+  margin: 0%;
+  text-align: justify;
 }
-.flax
-{
-    display: flex;
+.flax {
+  display: flex;
 }
-.half-width
-{
-    width: 50%;
-    margin-left: 10%;
-    margin-top: 5%;
+.half-width {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 5%;
 }
-.half-width img
-{
-    margin-top: -20%;
-    height: 400px;
-    width: 70%;
+.half-width img {
+  margin-top: -20%;
+  height: 400px;
+  width: 70%;
 }
-#border
-{
-    height: 20%;
-    border-left: 2px solid;
-    border-color: rgba(231, 17, 17, 0.733);
+#border {
+  height: 20%;
+  border-left: 2px solid;
+  border-color: rgba(231, 17, 17, 0.733);
 }
-#border h1
-{
-    margin-left: 10px;
-    font-size: 30px;
-    line-height: 20px;
+#border h1 {
+  margin-left: 10px;
+  font-size: 30px;
+  line-height: 20px;
 }
-.orange
-{
-    color: orange;
+.orange {
+  color: orange;
 }
-.button{
+.button {
   background-color: rgba(231, 17, 17, 0.733);
   color: white;
   border: none;
@@ -43,42 +36,114 @@ body
   cursor: pointer;
   border-radius: 2px;
 }
-.mission-2020
-{
-    width: 30%;
-    
+.mission-2020 {
+  width: 30%;
 }
-.mission-2020 img
-{
-    height: 30%;
-    width: 50%;
+.mission-2020 img {
+  height: 30%;
+  width: 50%;
 }
-.item
-{
-    margin-bottom: 5%;
-    padding: 2%;
-    height: 100%;
-      margin-left: 2%;
+.item {
+  padding: 2%;
+  height: 100%;
+  margin-left: 2%;
   margin-right: 2%;
   border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(124, 145, 84);
 }
-.dev-logo
-{
-    background-image: url(.images\shapes\shape-2.png);
+.half-width1 img {
+  margin-left: 20%;
+  padding-top: 15%;
+  height: 65%;
+  width: auto;
 }
-.half-width1 img
-{
-    margin-left: 20%;
-    height: 65%;
-    width:60%;
+.develop {
+  margin-right: 10%;
+  padding-left: 5%;
+  padding-top: 15%;
+  padding-bottom: 5%;
 }
-.develop
-{
-    margin-right: 10%;
-    margin-top: 2%;
-}
-.background
-{
-  background-image: url(./images/shapes/shape-1.png);
+.project-img-bac {
+  background: url(shape-1.png);
+  background-size: 100px 80px;
   background-repeat: no-repeat;
+  background-position: right 8% top 52%;
+}
+.devlop-img-bac
+{
+      background: url(shape-1.png);
+  background-size: 100px 120px;
+  background-repeat: no-repeat;
+  background-position: left 6% top 45%;
+}
+.project-text {
+  margin-left: 10%;
+  padding-top: 2%;
+}
+.project img {
+  max-width: 100%;
+  margin-top: -10%;
+  height: 65%;
+  margin-left: 18%;
+  width: auto;
+}
+footer p {
+  text-align: center;
+  color: rgb(187, 172, 172);
+  padding-bottom: 20px;
+  margin-bottom: 0%;
+}
+.mission-2020-bottom {
+  padding-top: 20px;
+  text-align: center;
+  font-style: italic;
+  color: blanchedalmond;
+}
+
+img {
+  max-width: 100%;
+}
+.section-title {
+  margin-top: -10%;
+  text-align: center;
+}
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  margin-left: 10%;
+}
+.portfolio__container {
+  justify-items: center;
+  row-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 15px;
+}
+.portfolio__img img {
+  border-radius: 5px;
+}
+.portfolio__img {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio__link {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: palegreen;
+  border-radius: 5px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+}
+.portfolio__img:hover .portfolio__link {
+  bottom: 0;
+}
+.portfolio__link-name {
+  color: red;
+  font-size: 15px;
 }
