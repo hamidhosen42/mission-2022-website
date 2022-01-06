@@ -1,7 +1,7 @@
 body {
   margin: 0%;
   text-align: justify;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .flax {
   display: flex;
@@ -68,9 +68,8 @@ body {
   background-repeat: no-repeat;
   background-position: right 8% top 52%;
 }
-.devlop-img-bac
-{
-      background: url(shape-1.png);
+.devlop-img-bac {
+  background: url(shape-1.png);
   background-size: 100px 120px;
   background-repeat: no-repeat;
   background-position: left 6% top 45%;
