@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   text-align: justify;
+  font-family: 'Poppins', sans-serif;
 }
 .flax {
   display: flex;
@@ -11,7 +12,6 @@ body {
   margin-top: 5%;
 }
 .half-width img {
-  margin-top: -20%;
   height: 400px;
   width: 70%;
 }
@@ -32,7 +32,7 @@ body {
   background-color: rgba(231, 17, 17, 0.733);
   color: white;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 10px;
   cursor: pointer;
   border-radius: 2px;
 }
@@ -54,13 +54,12 @@ body {
 .half-width1 img {
   margin-left: 20%;
   padding-top: 15%;
-  height: 65%;
+  height: 50%;
   width: auto;
 }
 .develop {
   margin-right: 10%;
-  padding-left: 5%;
-  padding-top: 15%;
+  padding-top: 12%;
   padding-bottom: 5%;
 }
 .project-img-bac {
@@ -106,6 +105,7 @@ img {
 .section-title {
   margin-top: -10%;
   text-align: center;
+  font-size: 30px;
 }
 .bd-grid {
   max-width: 1024px;
