@@ -16,9 +16,10 @@ body {
   width: 70%;
 }
 #border {
-  height: 20%;
-  border-left: 2px solid;
+  height: 25%;
+  border-left: 5px solid;
   border-color: rgba(231, 17, 17, 0.733);
+  border-radius: 5px;
 }
 #border h1 {
   margin-left: 10px;
@@ -29,12 +30,18 @@ body {
   color: orange;
 }
 .button {
-  background-color: rgba(231, 17, 17, 0.733);
+  background-color: #ff5959;
   color: white;
   border: none;
-  padding: 10px 10px;
+  padding: 10px 20px;
   cursor: pointer;
   border-radius: 2px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.text-align {
+  text-align: center;
+  margin-top: -200px;
 }
 .mission-2020 {
   width: 30%;
@@ -67,6 +74,7 @@ body {
   background-size: 100px 80px;
   background-repeat: no-repeat;
   background-position: right 8% top 52%;
+  margin-top: -100px;
 }
 .devlop-img-bac {
   background: url(shape-1.png);
@@ -92,7 +100,8 @@ footer p {
   margin-bottom: 0%;
 }
 .mission-2020-bottom {
-  padding-top: 20px;
+  padding: 80px;
+  margin-top: 50px;
   text-align: center;
   font-style: italic;
   color: blanchedalmond;
@@ -102,18 +111,18 @@ img {
   max-width: 100%;
 }
 .section-title {
-  margin-top: -10%;
   text-align: center;
-  font-size: 30px;
+  font-size: 48px;
 }
 .bd-grid {
-  max-width: 1024px;
   display: grid;
-  margin-left: 10%;
+  width: auto;
+  padding: 0px 10%;
 }
 .portfolio__container {
   justify-items: center;
   row-gap: 20px;
+  /* width: auto; */
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   column-gap: 15px;
@@ -145,4 +154,26 @@ img {
 .portfolio__link-name {
   color: red;
   font-size: 15px;
+}
+
+/* add corona application */
+.half-width-1 {
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.half-width-1 {
+  text-align: justify;
+}
+.corona-section {
+  display: flex;
+}
+.img-add
+{
+  background-image: url(/images/shapes/shape-3.png),url(/images/shapes/shape-3.png),url(/images/shapes/shape-3.png);
+  background-repeat: no-repeat;
+  background-size: 140px,140px,140px;
+  background-position: top left,bottom left,bottom right;
 }
